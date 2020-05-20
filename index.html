@@ -5,12 +5,13 @@
     <meta name="description" content="pizza and the cost">
     <meta name="keywords" content="math, calculation">
     <meta name="author" content="sean mcleod">
+    <link rel="stylesheet" href="mystyle.css">
       <title>Pizza Order</title>
   </head>
-  <body>
-    <h1>Welcome to <i>Pizzaland!</i></h1>
-    <table>
-      <tr>
+  <body class="a">
+    <h1 id="a">Welcome to <i>Pizzaland!</i></h1>
+    <table class="c">
+      <trs>
         <th>Item</th>
         <th>Cost</th>
       </tr>
@@ -25,8 +26,8 @@
     </table>
     <br>
     <br>
-    <table>
-       <tr>
+    <table class="c">
+      <tr>
         <td>1 Topping</td>
         <td>$1.00</td>
       </tr>
@@ -43,16 +44,17 @@
         <td>$3.35</td>
       </tr>
     </table>
-    <p>Please write the size of the Pizza and toppings you would like below.</p>
+    <img id="c" src="./images/pizza1.png">
+    <p class="choco">Please write the size of the Pizza and toppings you would like below.</p>
     <br>
-    <p><b>Size</b></p>
+    <p class="b"><b>Size</b></p>
     <input id="size" type="textbox">
-    <p><b>Toppings</b></p>
+    <p class="b"><b>Toppings</b></p>
     <input id="toppings" type="textbox">
     <br>
     <br>
-    <button onclick="myfunction()">Purchase(Large)</button>
-    <button onclick="myfunction1()">Purchase(Extra Large)</button>
+    <button onclick="myfunction()" class="d">Purchase(Large)</button>
+    <button onclick="myfunction1()" class="d">Purchase(Extra Large)</button>
     <p id="pa"></p>
     <p id="ra"></p>
     <p id="gr"></p>

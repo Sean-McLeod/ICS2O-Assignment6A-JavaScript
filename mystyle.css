@@ -22,7 +22,7 @@
 .b {
   font-size:20px;
   position:relative;
-  right:130px;
+  right:100px;
 }
 #size {
   padding-bottom: 20px;
@@ -50,6 +50,8 @@
 }
 #pa {
   font-size: 20px;
+  position:relative;
+  right: 120px;
 }
 #ra {
   font-size: 20px;

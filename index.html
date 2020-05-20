@@ -45,11 +45,11 @@
       </tr>
     </table>
     <img id="c" src="./images/pizza1.png">
-    <p class="choco">Please write the size of the Pizza and toppings you would like below.</p>
+    <p class="choco">Please write the size of the Pizza and the number of toppings you would like below.</p>
     <br>
-    <p class="b"><b>Size</b></p>
+    <p><b class="b">Size</b> ex: L,EX</p>
     <input id="size" type="textbox">
-    <p class="b"><b>Toppings</b></p>
+    <p><b class="b">Toppings</b> ex: 1,2,3</p>
     <input id="toppings" type="textbox">
     <br>
     <br>
@@ -64,22 +64,22 @@
       var toppings
       size=document.getElementById("size").value;
       toppings=document.getElementById("toppings").value;
-      if (size=="Large" || size=="large" && toppings == "1 Topping" || toppings=="1 topping" || toppings=="1") {
+      if (size=="L" || size=="large" && toppings == "1 Topping" || toppings=="1 topping" || toppings=="1") {
       document.getElementById("pa").innerHTML="Subtotal= $7"
       document.getElementById("ra").innerHTML="Tax= $0.91"
       document.getElementById("gr").innerHTML="Total= $7.91"
       }
-      if (size=="Large" || size=="large" && toppings == "2 Toppings" || toppings=="2 toppings" || toppings=="2") {
+      if (size=="L" || size=="large" && toppings == "2 Toppings" || toppings=="2 toppings" || toppings=="2") {
       document.getElementById("pa").innerHTML="Subtotal= $7.75"
       document.getElementById("ra").innerHTML="Tax= $1.0075"
       document.getElementById("gr").innerHTML="Total= $8.7575"
       }
-      if (size=="Large" || size=="large" && toppings == "3 Toppings" || toppings=="3 toppings" || toppings=="3") {
+      if (size=="L" || size=="large" && toppings == "3 Toppings" || toppings=="3 toppings" || toppings=="3") {
       document.getElementById("pa").innerHTML="Subtotal= $8.50"
       document.getElementById("ra").innerHTML="Tax= $1.105"
       document.getElementById("gr").innerHTML="Total= $9.605"
       }
-      if (size=="Large" || size=="large" && toppings == "4 Toppings" || toppings=="4 toppings" || toppings=="4") {
+      if (size=="L" || size=="large" && toppings == "4 Toppings" || toppings=="4 toppings" || toppings=="4") {
       document.getElementById("pa").innerHTML="Subtotal= $9.35"
       document.getElementById("ra").innerHTML="Tax= $1.2155"
       document.getElementById("gr").innerHTML="Total= $10.5655"
@@ -93,21 +93,21 @@
       size=document.getElementById("size").value;
       toppings=document.getElementById("toppings").value;
       if (size=="Extra Large" || size=="extra large" && toppings == "1 Topping" || toppings=="1 topping" || toppings=="1") {
-      document.getElementById("pa").innerHTML="Subtotal= $pig"
+      document.getElementById("pa").innerHTML="Subtotal= $11"
       document.getElementById("ra").innerHTML="Tax= $1.43"
       document.getElementById("gr").innerHTML="Total= $12.43"
       }
-      if (size=="Extra Large" || size=="extra large" && toppings == "2 Toppings" || toppings=="2 toppings" || toppings=="2") {
+      if (size=="EX" || size=="extra large" && toppings == "2 Toppings" || toppings=="2 toppings" || toppings=="2") {
       document.getElementById("pa").innerHTML="Subtotal= $11.75"
       document.getElementById("ra").innerHTML="Tax= $1.5275"
       document.getElementById("gr").innerHTML="Total= $13.2775"
       }
-      if (size=="Extra Large" || size=="extra large" && toppings == "3 Toppings" || toppings=="3 toppings" || toppings=="3") {
+      if (size=="EX" || size=="extra large" && toppings == "3 Toppings" || toppings=="3 toppings" || toppings=="3") {
       document.getElementById("pa").innerHTML="Subtotal= $12.50"
       document.getElementById("ra").innerHTML="Tax= $1.625"
       document.getElementById("gr").innerHTML="Total= $14.125"
       }
-      if (size=="Extra Large" || size=="extra large" && toppings == "4 Toppings" || toppings=="4 toppings" || toppings=="4") {
+      if (size=="EX" || size=="extra large" && toppings == "4 Toppings" || toppings=="4 toppings" || toppings=="4") {
       document.getElementById("pa").innerHTML="Subtotal= $13.35"
       document.getElementById("ra").innerHTML="Tax= $1.7355"
       document.getElementById("gr").innerHTML="Total= $15.0855"
